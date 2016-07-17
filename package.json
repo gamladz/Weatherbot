@@ -1,16 +1,14 @@
 {
-  "name": "testbot",
+  "name": "weatherbot",
   "version": "1.0.0",
-  "description": "TestBot Server App",
+  "description": "A bot for weather",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Adam Jodlowski",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "request": "^2.72.0"
-  }
+  "author": "gamladz",
+  "license": "ISC"
+}
