@@ -1,18 +1,31 @@
 {
-  "name": "weatherbot",
+  "name": "WitAI-FB-Messenger-boilerplate",
   "version": "1.0.0",
-  "description": "A bot for weather",
+  "description": "NodeJS Boilerplate to connect Wit.ai and Facebook Messenger",
+  "keywords": [
+    "wit",
+    "wit.ai",
+    "bot",
+    "botengine",
+    "bots",
+    "Facebook",
+    "Messenger"
+  ],
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "request": "^2.73.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "setWelcome": "node setWelcome.js"
   },
-  "author": "gamladz",
-  "license": "ISC"
+  "repository": "https://github.com/JakobReiter/WitAI-Facebook-Messenger-chatbot-boilerplate",
+  "author": "Jakob Reiter <jakob.reiter.io@gmail.com>",
+  "dependencies": {
+    "node-fetch": "^1.5.1",
+    "node-uuid": "^1.4.7",
+    "request": "^2.71.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "node-wit": "^3.3.0",
+    "async": "^2.0.0-rc.5"
+  }
 }
