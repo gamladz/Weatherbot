@@ -1,15 +1,4 @@
-Skip to content
-Personal Open source Business Explore
-Sign upSign inPricingBlogSupport
-This repository
-Search
- Watch 3  Star 10  Fork 9 adamjodlowski/facebook-messenger-bot
- Code  Issues 0  Pull requests 0  Pulse  Graphs
-Branch: master Find file Copy pathfacebook-messenger-bot/index.js
-c0fbe19  on Apr 23
-@adamjodlowski adamjodlowski Register Postback handler
-1 contributor
-RawBlameHistory     102 lines (87 sloc)  3.13 KB
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var request = require('request');
@@ -111,5 +100,3 @@ function kittenMessage(recipientId, text) {
     return false;
     
 };
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
